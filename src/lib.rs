@@ -10,6 +10,7 @@ pub mod archiver;
 pub mod autostart;
 pub mod network_audit;
 pub mod permissions;
+pub mod policy;
 pub mod process_monitor;
 pub mod reporter;
 pub mod tracker;
