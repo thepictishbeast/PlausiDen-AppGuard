@@ -7,8 +7,12 @@
 //! Windows (registry + AppX), Android (PackageManager), iOS (entitlements).
 
 pub mod archiver;
+pub mod autostart;
 pub mod permissions;
+pub mod process_monitor;
 pub mod tracker;
 
+pub use autostart::{AutostartEntry, AutostartKind, AutostartManager};
 pub use permissions::{Permission, PermissionAudit};
+pub use process_monitor::{ProcessMonitor, RunningProcess};
 pub use tracker::{AppUsage, UsageTracker};
