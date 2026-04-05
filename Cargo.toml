@@ -1,0 +1,19 @@
+[package]
+name = "plausiden-appguard"
+version = "0.1.0"
+edition = "2024"
+license = "BSL-1.1"
+description = "App usage tracking, permission auditing, and unused app archival"
+repository = "https://github.com/redcaptian1917/PlausiDen-AppGuard"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde"] }
+tracing = "0.1"
+thiserror = "2"
+walkdir = "2"
+uuid = { version = "1", features = ["v4", "serde"] }
+
+[dev-dependencies]
+tempfile = "3"
