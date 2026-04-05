@@ -1,6 +1,8 @@
 //! App usage tracking — monitors which apps are actively used.
 
-use chrono::{DateTime, Duration, Utc};
+use chrono::{DateTime, Utc};
+#[cfg(test)]
+use chrono::Duration;
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 
@@ -148,6 +150,11 @@ impl UsageTracker {
         let mut apps: Vec<_> = self.apps.values().collect();
         apps.sort_by(|a, b| b.last_used.cmp(&a.last_used));
         apps
+    }
+
+    /// Insert a pre-built [`AppUsage`] directly (useful for testing/import).
+    pub fn insert_raw(&mut self, app_id: String, usage: AppUsage) {
+        self.apps.insert(app_id, usage);
     }
 
     /// Get apps sorted by usage frequency (most used first).

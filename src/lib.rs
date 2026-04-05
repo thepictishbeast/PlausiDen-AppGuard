@@ -11,9 +11,11 @@ pub mod autostart;
 pub mod network_audit;
 pub mod permissions;
 pub mod process_monitor;
+pub mod reporter;
 pub mod tracker;
 
 pub use autostart::{AutostartEntry, AutostartKind, AutostartManager};
 pub use permissions::{Permission, PermissionAudit};
 pub use process_monitor::{ProcessMonitor, RunningProcess};
+pub use reporter::{AppGuardReport, AppGuardReporter};
 pub use tracker::{AppUsage, UsageTracker};
