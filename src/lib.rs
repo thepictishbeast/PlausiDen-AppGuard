@@ -8,6 +8,7 @@
 
 pub mod archiver;
 pub mod autostart;
+pub mod network_audit;
 pub mod permissions;
 pub mod process_monitor;
 pub mod tracker;
