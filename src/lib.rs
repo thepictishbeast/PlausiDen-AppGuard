@@ -30,6 +30,7 @@ pub mod process_tree;
 pub mod quarantine;
 pub mod reporter;
 pub mod resource_monitor;
+pub mod resource_quota;
 pub mod risk_score;
 pub mod tracker;
 pub mod uninstall_tracker;
