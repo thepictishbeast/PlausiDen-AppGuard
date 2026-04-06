@@ -18,6 +18,7 @@ pub mod policy;
 pub mod sandbox;
 pub mod process_monitor;
 pub mod reporter;
+pub mod resource_monitor;
 pub mod tracker;
 
 pub use autostart::{AutostartEntry, AutostartKind, AutostartManager};
