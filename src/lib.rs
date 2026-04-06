@@ -29,6 +29,7 @@ pub mod reporter;
 pub mod resource_monitor;
 pub mod risk_score;
 pub mod tracker;
+pub mod update_tracker;
 pub mod usage_stats;
 
 pub use autostart::{AutostartEntry, AutostartKind, AutostartManager};
