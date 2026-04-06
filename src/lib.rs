@@ -34,6 +34,7 @@ pub mod resource_monitor;
 pub mod resource_quota;
 pub mod risk_score;
 pub mod tracker;
+pub mod telemetry_stream;
 pub mod traffic_meter;
 pub mod uninstall_tracker;
 pub mod update_tracker;
