@@ -14,6 +14,7 @@ pub mod compliance;
 pub mod battery;
 pub mod alert;
 pub mod network_audit;
+pub mod permission_audit;
 pub mod permissions;
 pub mod policy;
 pub mod policy_engine;
