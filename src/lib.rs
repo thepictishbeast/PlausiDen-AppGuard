@@ -24,6 +24,7 @@ pub mod sandbox;
 pub mod process_monitor;
 pub mod reporter;
 pub mod resource_monitor;
+pub mod risk_score;
 pub mod tracker;
 pub mod usage_stats;
 
