@@ -21,6 +21,7 @@ pub mod process_monitor;
 pub mod reporter;
 pub mod resource_monitor;
 pub mod tracker;
+pub mod usage_stats;
 
 pub use autostart::{AutostartEntry, AutostartKind, AutostartManager};
 pub use permissions::{Permission, PermissionAudit};
