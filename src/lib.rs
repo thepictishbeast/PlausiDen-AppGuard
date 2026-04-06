@@ -16,6 +16,7 @@ pub mod alert;
 pub mod network_audit;
 pub mod permissions;
 pub mod policy;
+pub mod policy_engine;
 pub mod sandbox;
 pub mod process_monitor;
 pub mod reporter;
