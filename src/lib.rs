@@ -14,6 +14,7 @@ pub mod data_attribution;
 pub mod data_flow;
 pub mod compliance;
 pub mod battery;
+pub mod cert_tracker;
 pub mod alert;
 pub mod launch_counter;
 pub mod network_acl;
