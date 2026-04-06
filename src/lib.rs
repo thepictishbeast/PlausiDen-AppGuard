@@ -23,6 +23,7 @@ pub mod policy_engine;
 pub mod sandbox;
 pub mod sandbox_profiles;
 pub mod process_monitor;
+pub mod process_tree;
 pub mod reporter;
 pub mod resource_monitor;
 pub mod risk_score;
