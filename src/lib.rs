@@ -10,6 +10,7 @@ pub mod access_log;
 pub mod app_inventory;
 pub mod archiver;
 pub mod autostart;
+pub mod data_attribution;
 pub mod data_flow;
 pub mod compliance;
 pub mod battery;
