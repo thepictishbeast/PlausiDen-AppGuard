@@ -21,6 +21,7 @@ pub mod permissions;
 pub mod policy;
 pub mod policy_engine;
 pub mod sandbox;
+pub mod sandbox_evaluator;
 pub mod sandbox_profiles;
 pub mod process_monitor;
 pub mod process_tree;
