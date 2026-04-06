@@ -17,6 +17,7 @@ pub mod battery;
 pub mod cert_tracker;
 pub mod alert;
 pub mod install_tracker;
+pub mod integrity_monitor;
 pub mod launch_counter;
 pub mod network_acl;
 pub mod network_audit;
