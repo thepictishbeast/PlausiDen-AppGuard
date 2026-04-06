@@ -12,6 +12,7 @@ pub mod archiver;
 pub mod autostart;
 pub mod data_attribution;
 pub mod data_flow;
+pub mod background_activity;
 pub mod compliance;
 pub mod battery;
 pub mod cert_tracker;
