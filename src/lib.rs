@@ -32,6 +32,7 @@ pub mod reporter;
 pub mod resource_monitor;
 pub mod risk_score;
 pub mod tracker;
+pub mod uninstall_tracker;
 pub mod update_tracker;
 pub mod usage_stats;
 
