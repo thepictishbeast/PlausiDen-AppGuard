@@ -15,6 +15,7 @@ pub mod data_flow;
 pub mod compliance;
 pub mod battery;
 pub mod alert;
+pub mod network_acl;
 pub mod network_audit;
 pub mod permission_audit;
 pub mod permissions;
