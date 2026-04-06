@@ -6,6 +6,7 @@
 //! Cross-platform: Linux (desktop entries + /proc), macOS (launchd + TCC.db),
 //! Windows (registry + AppX), Android (PackageManager), iOS (entitlements).
 
+pub mod app_inventory;
 pub mod archiver;
 pub mod autostart;
 pub mod data_flow;
