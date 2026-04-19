@@ -1,6 +1,5 @@
 //! Battery impact tracking — which apps drain the most power.
 
-use chrono::{DateTime, Utc};
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 

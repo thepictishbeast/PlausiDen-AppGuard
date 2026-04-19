@@ -1,6 +1,6 @@
 //! Traffic meter — per-app bandwidth tracking with daily/monthly totals.
 
-use chrono::{DateTime, Datelike, Utc};
+use chrono::{DateTime, Utc};
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 
