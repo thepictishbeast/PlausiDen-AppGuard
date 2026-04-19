@@ -49,7 +49,7 @@ impl NetworkAuditor {
         Self {
             connections: Vec::new(),
             suspicious_destinations: vec![
-                "malware-c2.example.com".into(),
+                "malware-c2.example.com".into(), // LEAK-JUSTIFIED: RFC 2606 example.com is the right host for placeholder suspicious-destination entries
                 "phishing.evil.com".into(),
                 "cryptominer-pool.xyz".into(),
             ],
