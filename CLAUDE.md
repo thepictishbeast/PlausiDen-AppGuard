@@ -15,3 +15,8 @@ App usage tracking, permission auditing, unused app archival. Cross-platform.
 ## Integrates with:
 - PlausiDen-Purge: cleanup after archival
 - PlausiDen-Sentinel: suspicious permission alerts feed into threat detection
+
+## Narrative Framing
+Civil rights tool restoring the presumption of innocence. Use: "plausible deniability," "presumption of innocence," "forensic reliability," "data sovereignty," "surveillance resistance," "digital civil rights." Avoid: "hacking," "evasion," "anti-forensics," "hide," "trick," "fool."
+
+NEVER include personal political beliefs or ideology of any contributor in any file.
