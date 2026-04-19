@@ -112,7 +112,7 @@ impl BackgroundActivity {
     /// Top apps by background CPU usage.
     pub fn top_cpu_users(&self, n: usize) -> Vec<&AppBackgroundStats> {
         let mut sorted: Vec<&AppBackgroundStats> = self.stats.values().collect();
-        sorted.sort_by(|a, b| b.cpu_seconds.partial_cmp(&a.cpu_seconds).unwrap());
+        sorted.sort_by(|a, b| b.cpu_seconds.partial_cmp(&a.cpu_seconds).unwrap_or(std::cmp::Ordering::Equal)); // SAFETY: cpu_seconds is derived from monotonic clock diffs; never NaN in practice, but fall back to Equal for total ordering
         sorted.truncate(n);
         sorted
     }
