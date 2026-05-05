@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 license = "BSL-1.1"
 description = "App usage tracking, permission auditing, and unused app archival"
-repository = "https://github.com/redcaptian1917/PlausiDen-AppGuard"
+repository = "https://github.com/thepictishbeast/PlausiDen-AppGuard"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
